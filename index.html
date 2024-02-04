@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BYTE FORCE PTIK, Menggali Kekuatan Data dalam Byte, Menyulapnya Menjadi Inovasi Menggunakan Teknologi untuk Perubahan Positif.">
+  <meta name="author" content="Hizkia Reppi">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="www.byteforceptik.vercel.app">
+  <title>Byte Force PTIK - Landing page</title>
+
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/29057e6c17.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header class="header" data-header data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine"
+  >
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./src/img/logo.png" alt="Byte Force PTIK logo">
+      </a>
+
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="#" class="navbar-link"></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-right" data-aos-easing="ease-in-sine">
+          <h1 class="h1 hero-title">BYTE FORCE PTIK</h1>
+
+          <p class="hero-text">
+            Menggali Kekuatan Data dalam Byte, Menyulapnya Menjadi Inovasi Menggunakan Teknologi untuk Perubahan
+            Positif.
+          </p>
+
+          <p class="form-text">
+            Bergabunglah dengan BYTE FORCE PTIK" Raih Potensi Teknologi Informasi dan Komunikasi Anda!
+          </p>
+
+          <form class="hero-form">
+            <input type="email" name="email" required placeholder="Masukan Email Anda" class="email-field"
+              autocomplete="email">
+
+            <button type="button" class="btn btn-primary">
+              Bergabung
+            </button>
+          </form>
+        </div>
+
+        <figure class="hero-banner" data-aos="fade-left" data-aos-easing="ease-in-sine">
+          <img src="./src/img/hero-banner.png" alt="Hero image">
+        </figure>
+      </div>
+    </section>
+
+    <section class="benefit" id="benefit">
+      <div class="container">
+        <div class="benefit-content" data-aos="fade-right">
+          <div class="benefit-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+
+          <h2 class="h2 benefit-title">
+            Kenapa bergabung ke BTYE FORCE PTIK?
+          </h2>
+
+          <p class="benefit-text">
+            Bergabung dengan BYTE FORCE PTIK tidak hanya memberikan manfaat langsung bagi perkembangan pribadi Anda
+            dalam TIK, tetapi juga membuka pintu bagi peluang karir yang lebih baik dan memberikan kesempatan untuk
+            memberikan kontribusi positif dalam dunia teknologi dan masyarakat secara keseluruhan.
+          </p>
+
+          <button class="btn btn-outline">Pelajari Selengkapnya</button>
+        </div>
+
+        <ul class="benefit-list" data-aos="fade-left"></ul>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="testimonials-container">
+        <div data-aos="fade-down">
+          <h2 class="h2 section-title">Testimonials</h2>
+
+          <p class="section-text">
+            Apa kata mereka tentang BYTE FORCE PTIK?
+          </p>
+        </div>
+
+        <div class="testimonials-contents-wraper" data-aos="zoom-in-down">
+          <div class="testimonials-testRow"></div>
+
+          <div class="indicators">
+            <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+            <div class="dot" attr='1' onclick="switchTest(this)"></div>
+            <div class="dot" attr='2' onclick="switchTest(this)"></div>
+            <div class="dot" attr='3' onclick="switchTest(this)"></div>
+            <div class="dot" attr='4' onclick="switchTest(this)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog" data-aos="zoom-in-down">
+      <div class="container">
+        <div data-aos="fade-down">
+          <h2 class="h2 section-title">Berita & Blog Terbaru</h2>
+          <p class="section-text">
+            Selamat datang di bagian berita dan blog terbaru! Di sini, kami menyajikan informasi terkini dan tulisan
+            menarik untuk memenuhi kebutuhan wawasan Anda. Dengan beragam topik yang mencakup berita terbaru dan blog
+            terkini, kami berkomitmen untuk memberikan pembaca kami pemahaman yang lebih mendalam tentang perkembangan
+            terkini dalam berbagai bidang. Segera temukan berita terhangat dan artikel-artikel menarik yang akan
+            memberikan wawasan baru serta pemahaman yang lebih luas. Selamat menikmati informasi terbaru kami!
+          </p>
+        </div>
+
+        <ul class="blog-list" id="blog-list"></ul>
+
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div data-aos="fade-down">
+          <h2 class="h2 section-title">Contact Kami</h2>
+          <p class="section-text">
+            Apakah Anda memiliki pertanyaan, saran, atau ingin berbagi pengalaman? Kami sangat menghargai setiap masukan
+            dari Anda. Silakan hubungi kami melalui formulir di bawah ini atau melalui kontak yang tertera. Kami
+            berkomitmen untuk memberikan tanggapan yang cepat dan membantu Anda dengan setiap kebutuhan.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <form class="contact-form" data-aos="fade-right">
+            <div class="wrapper-flex">
+              <div class="input-wrapper">
+                <label for="name">Nama Lengkap*</label>
+                <input type="text" name="name" id="name" required placeholder="Masukan Nama Anda" class="input-field"
+                  autocomplete="name">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required placeholder="Masukan Email Anda"
+                  class="input-field" autocomplete="email">
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="message">Pesan*</label>
+              <textarea name="message" id="message" required placeholder="Tuliskan Pesan Anda" autocomplete="off"
+                class="input-field"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary">
+              <span>Kirim Pesan</span>
+              <i class="fa fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <ul class="contact-list" data-aos="fade-left">
+            <li>
+              <a href="mailto:byteforceptik@gmail.com" class="contact-link">
+                <i class="fa fa-envelope"></i>
+                <span>: byteforceptik@gmail.com</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="contact-link">
+                <i class="fa fa-globe"></i>
+                <span>: www.byteforceptik.com</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+6282345678910" class="contact-link">
+                <i class="fa fa-phone"></i>
+                <span>: (+62) 823 4567 8910</span>
+              </a>
+            </li>
+
+            <li>
+              <div class="contact-link">
+                <i class="fa fa-clock"></i>
+                <span>: 8:00 WITA - 18:00 WITA</span>
+              </div>
+            </li>
+
+            <li>
+              <a href="#" class="contact-link">
+                <i class="fa fa-location-dot"></i>
+                <address>: Lantai 2, Gedung Kuliah PTIK, UNIMA</address>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer data-aos="fade-up">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand" data-aos="fade-right">
+          <a href="#" class="logo">
+            <img src="./src/img/logo-white.png" alt="Byte Force PTIK logo">
+          </a>
+
+          <p class="footer-text">
+            Menggali Kekuatan Data dalam Byte, Menyulapnya Menjadi Inovasi Menggunakan Teknologi untuk Perubahan
+            Positif.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-link-box" data-aos="fade-left">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-item-title">TENTANG KAMI</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Visi & Misi</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Tujuan</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Anggota</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Sejarah</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-item-title">PROGRAM</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Jaringan</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Pemrograman</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Multimedia</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Sosial</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-item-title">SUPPORT</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Hubungan Masyarakat</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Bergabung dengan Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/js/script.js" type="module"></script>
+</body>
+
+</html>

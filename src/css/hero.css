@@ -1,0 +1,108 @@
+.hero {
+  padding: 125px 0 var(--section-padding);
+  background: var(--ghost-white-1);
+}
+
+.hero-content {
+  margin-bottom: 80px;
+}
+
+.hero-title {
+  margin-bottom: 25px;
+}
+
+.hero-text {
+  color: var(--cool-gray);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.form-text {
+  color: var(--independence);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.form-text span {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.email-field {
+  background: var(--ghost-white-2);
+  padding: 17px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.email-field:focus {
+  outline-color: var(--majorelle-blue);
+}
+
+.hero .btn-primary {
+  margin-inline: auto;
+}
+
+.hero-banner img {
+  width: 100%;
+}
+
+
+/** Responsive for larger than 450px screen **/
+
+@media (min-width: 450px) {
+  .hero-form {
+    position: relative;
+  }
+
+  .email-field {
+    margin-bottom: 0;
+    padding-right: 155px;
+  }
+
+  .hero .btn-primary {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding-block: 12.5px;
+  }
+}
+
+/** Responsive for larger than 768px screen */
+
+@media (min-width: 768px) {
+  .hero :is(.hero-text, .form-text, .hero-form) {
+    max-width: 520px;
+  }
+
+  .hero-banner {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+}
+
+/** Responsive for larger than 992px screen */
+
+@media (min-width: 992px) {
+  .hero .container {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .hero-content {
+    margin-bottom: 0;
+  }
+}
+
+/** Responsive for larger than 1200px screen */
+
+@media (min-width: 1200px) {
+  .hero .container {
+    gap: 150px;
+  }
+}

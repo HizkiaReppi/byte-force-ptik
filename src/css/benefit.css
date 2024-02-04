@@ -1,0 +1,132 @@
+.benefit {
+  padding-block: var(--section-padding);
+}
+
+.benefit-content {
+  margin-bottom: 30px;
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--lavender-web);
+  display: grid;
+  place-items: center;
+  color: var(--majorelle-blue);
+  font-size: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.benefit-title {
+  margin-bottom: 10px;
+}
+
+.benefit-text {
+  color: var(--cool-gray);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.benefit-list {
+  display: grid;
+  gap: 20px;
+}
+
+.benefit-card {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 12px hsla(233, 77%, 10%, 0.06);
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.benefit-card:hover {
+  background: var(--majorelle-blue);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 18px hsla(245, 67%, 59%, 0.4);
+}
+
+.benefit-card .card-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--lavender-web);
+  display: grid;
+  place-items: center;
+  color: var(--majorelle-blue);
+  font-size: 28px;
+  border-radius: 50%;
+  margin-inline: auto;
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+
+.benefit-card:hover .card-icon {
+  background: hsla(0, 0%, 100%, 0.15);
+  color: var(--white);
+  box-shadow: 0 0 0 8px hsla(0, 0%, 100%, 0.05);
+}
+
+.benefit-card .card-title {
+  margin-bottom: 10px;
+  transition: var(--transition);
+}
+
+.benefit-card:hover .card-title {
+  color: var(--white);
+}
+
+.benefit-card .card-text {
+  color: var(--cool-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  transition: var(--transition);
+}
+
+.benefit-card:hover .card-text {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+
+/** Responsive for larger than 450px screen **/
+
+@media (min-width: 450px) {
+  .benefit-card .card-text {
+    max-width: 300px;
+    margin-inline: auto;
+  }
+}
+
+/** Responsive for larger than 768px screen */
+
+@media (min-width: 768px) {
+  .benefit-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/** Responsive for larger than 992px screen */
+
+@media (min-width: 992px) {
+  .benefit .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .benefit-content {
+    margin-bottom: 0;
+    width: 40%;
+  }
+
+  .benefit-list {
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+
+  .benefit-list li:nth-child(odd) {
+    transform: translateY(50px);
+  }
+}
