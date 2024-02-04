@@ -47,7 +47,7 @@ const createTestimonials = () => {
     const testimonialsItem = document.createElement('div');
     testimonialsItem.classList.add('testimonials-testItem');
     testimonialsItem.innerHTML = `
-      <img src="src/img/${item.photo}">
+      <img src="https://raw.githubusercontent.com/HizkiaReppi/byte-force-ptik/main/src/img/${item.photo}">
       <h3>${item.name}</h3>
       <h4>${item.job}</h4>
       <p>${item.description}</p>
@@ -66,7 +66,7 @@ const createBlogs = () => {
     li.innerHTML = `
       <div class="blog-card" data-aos="zoom-in">
         <figure class="blog-banner">
-          <img src="./src/img/blog-banner-${blog.id}.jpg" alt="${blog.title}">
+          <img src="https://raw.githubusercontent.com/HizkiaReppi/byte-force-ptik/main/src/img/blog-banner-${blog.id}.jpg" alt="${blog.title}">
         </figure>
         <div class="blog-meta">
           <span>
