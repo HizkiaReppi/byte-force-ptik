@@ -73,10 +73,12 @@ textarea {
 html {
   font-family: var(--ff-quicksand);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--white);
+  overflow-x: hidden;
 }
 
 /* Reused Style */
